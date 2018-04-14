@@ -1,8 +1,8 @@
 FROM ahaasler/jira-base:alpine-8u102b14-server-jre
-MAINTAINER Adrian Haasler García <dev@adrianhaasler.com>
+MAINTAINER selang
 
 # Configuration
-ENV JIRA_VERSION 7.3.6
+ENV JIRA_VERSION 7.9.0
 
 # Get environment variables for building
 ARG SOURCE_COMMIT
